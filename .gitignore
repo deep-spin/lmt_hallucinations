@@ -1,0 +1,9 @@
+# Data directory
+data/
+
+__pycache__
+
+# Jetbrains IDEs
+.idea
+
+.DS_Store
