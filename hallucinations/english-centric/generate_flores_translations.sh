@@ -89,7 +89,7 @@ for LANGUAGE in de nl sv fr pt es cs pl ru fi hu lt el tr ja ko vi zh bn hi ta i
             fi 
             cat ${GENERATE_PATH}/generate-test.txt  | grep -P '^H-'  | cut -c 3- | sort -n -k 1 | awk -F "\t" '{print $NF}' > ${GENERATE_PATH}/sys.txt
             sacrebleu $DATA_PATH/test/$TGT_LANG_CODE.test < ${GENERATE_PATH}/sys.txt --tokenize spm --metrics bleu chrf --chrf-word-order 2 -f text > ${GENERATE_PATH}/metrics.txt
-            # Print the first line of the metrics file with contains the spBLEU score
+            # Print the first line of the metrics file which contains the spBLEU score
             head -n 1 ${GENERATE_PATH}/metrics.txt
         done
     done
