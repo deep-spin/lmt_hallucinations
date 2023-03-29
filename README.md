@@ -1,6 +1,6 @@
 # Hallucinations in Large Multilingual Translation Models
 
-This repository contains code and data for the "Hallucinations in Large Multilingual Translation Models" paper.
+This repository contains code and data for the "[Hallucinations in Large Multilingual Translation Models](https://arxiv.org/abs/2303.16104)" paper.
 
 ## Data with Translations for all setups
 
@@ -125,4 +125,17 @@ bash $LTM_HALLUCINATIONS_PATH/hallucinations/hallucinations_natural/non_english_
 #### Specialized Domain Setup
 ```shell
 bash $LTM_HALLUCINATIONS_PATH/hallucinations/hallucinations_natural/specialized_domain/score_with_alti.sh
+```
+---
+
+## If you found our work/code useful, please cite our work:
+```bibtex
+@misc{guerreiro2023hallucinations,
+      title={Hallucinations in Large Multilingual Translation Models}, 
+      author={Nuno M. Guerreiro and Duarte Alves and Jonas Waldendorf and Barry Haddow and Alexandra Birch and Pierre Colombo and André F. T. Martins},
+      year={2023},
+      eprint={2303.16104},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
