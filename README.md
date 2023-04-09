@@ -7,7 +7,7 @@ This repository contains code and data for the "[Hallucinations in Large Multili
 You can dowload the translations from all models for all the natural hallucinations setups in the paper by running:
 
 ```shell
-wget https://web.tecnico.ulisboa.pt/~ist178550/natural_hallucinations.zip
+wget https://web.tecnico.ulisboa.pt/~ist178550/lmt_natural_hallucinations.zip
 ```
 
 ## Generation and Detection of Natural Hallucinations
