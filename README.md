@@ -23,7 +23,6 @@ First, start by installing the following dependencies:
 ```shell
 python3 -m venv ltm_env
 source ltm_env/bin/activate
-pip install -e .
 ```
 
 Then install fairseq and additional dependencies:
